@@ -1,7 +1,7 @@
 # KONE.533-Automated-Data-Generation-Setup
 Created as a project work for the Tampere University course KONE.533
 
-A tool for controlling a MoveIt integrated robot arm with an attached camera.
+A tool for controlling a MoveIt integrated robot arm with an attached camera, taking pictures and generating annotations.
 Camera should publish to a ROS topic.
 
 Basic usage:
@@ -11,7 +11,7 @@ Basic usage:
 4. Run bmaskgen.py
 5. (Optional) Run viz.py to visualize bounding boxes
 
-Each file above contains some parameters to me modified depending on desired results, cameras and coordinate systems. Some more information is provided within.
+Each file above contains some parameters to me modified depending on object pose, desired results, cameras and coordinate systems. Some more information is provided within.
 
 Designed to be used with Franka Emika Panda and it's associated default configurations:
 https://github.com/frankaemika/franka_ros
