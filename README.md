@@ -5,9 +5,10 @@ A tool for controlling a MoveIt integrated robot arm with an attached camera.
 Camera should publish to a ROS topic.
 
 Basic usage:
-1. Run movegen.py
-2. Run moveit_control.py
-3. Run bmaskgen.py
+1. Set up your robot for MoveIt
+2. Run movegen.py
+3. Run moveit_control.py
+4. Run bmaskgen.py
 
 Each file above contains some parameters to me modified depending on desired results, cameras and coordinate systems. Some more information is provided within.
 
