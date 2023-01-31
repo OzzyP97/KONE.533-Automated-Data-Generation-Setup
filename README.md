@@ -9,6 +9,7 @@ Basic usage:
 2. Run movegen.py
 3. Run moveit_control.py
 4. Run bmaskgen.py
+5. (Optional) Run viz.py to visualize bounding boxes
 
 Each file above contains some parameters to me modified depending on desired results, cameras and coordinate systems. Some more information is provided within.
 
